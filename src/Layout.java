@@ -56,7 +56,7 @@ public class Layout implements ActionListener {
         Charactername = new JLabel("Character Name:");
         Characterallies = new JLabel("Character Allies:");
         Next = new JButton("Next");
-        Next = new JButton("Previous");
+        Previous = new JButton("Previous");
         Top = new JPanel();
         Top.setLayout(new GridLayout(2,1));
         Bottom = new JPanel();
@@ -80,23 +80,25 @@ public class Layout implements ActionListener {
         mainFrame.setVisible(true);
     }
 
-   // @Override
-   // public void actionPerformed(ActionEvent e) {
-    //    if (e.getSource() == cut)
-   //         URL.cut();
-   //     KeyWord.cut();
 
-    //    if (e.getSource() == paste)
-            //URL.paste();
-   //     KeyWord.paste();
 
-  //      if (e.getSource() == copy)
-    //        URL.copy();
-   //     KeyWord.copy();
+     @Override
+    public void actionPerformed(ActionEvent e) {
+        if (e.getSource() == cut){}
+//            URL.cut();
+//        KeyWord.cut();
 
-      //  if (e.getSource() == selectAll)
-      //      URL.selectAll();
-     //   KeyWord.selectAll();
+        if (e.getSource() == paste){}
+//            URL.paste();
+//        KeyWord.paste();
+
+        if (e.getSource() == copy){}
+//            URL.copy();
+//        KeyWord.copy();
+
+        if (e.getSource() == selectAll){}
+//            URL.selectAll();
+//        KeyWord.selectAll();
 
     }
 
